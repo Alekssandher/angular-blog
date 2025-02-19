@@ -1,0 +1,16 @@
+@media screen and (min-width: 700px) {
+    .menu-title-container {
+        color: white;
+    }
+    .menu-title-container > h1 {
+        margin: 15px 0px 15px 0px;
+        font-size: 30px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+    .menu-title-container > hr {
+        margin: 10px 0px 10px 0px;
+        
+    }
+}

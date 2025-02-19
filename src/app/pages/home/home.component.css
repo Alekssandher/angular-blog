@@ -5,11 +5,3 @@
     flex-direction: row;
     justify-content: center;
 }
-header > app-menu-bar 
-{
-    margin-top: 15px;
-}
-header {
-    display: flex;
-    justify-content: center;
-}
