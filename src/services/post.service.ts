@@ -12,6 +12,6 @@ export class PostService {
   constructor(private http: HttpClient) {}
 
   getPosts(limit:string): Observable<any> {
-    return this.http.get<any>(`${this.apiUrl}?limit=${limit}`);
+    return this.http.get<any>(`${this.apiUrl}?limit=${limit}`, {withCredentials: true});
   }
 }
