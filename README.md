@@ -1,59 +1,72 @@
-# AngularBlog
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+# Angular Blog - Static Gaming Blog
 
-## Development server
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://alekssandher.github.io/angular-blog/)
 
-To start a local development server, run:
+## 📖 About
+Angular Blog is a static gaming blog built with Angular. It features articles about video games, providing a clean and modern interface for browsing content.
 
-```bash
-ng serve
+## 🚀 Features
+- 📜 Static blog with dynamic content rendering
+- 🎮 Gaming-related articles with images and descriptions
+- 📱 Fully responsive design for different screen sizes
+- 🔗 Navigation between articles and categories
+
+## 🛠️ Technologies Used
+- **Angular** - Frontend framework
+- **TypeScript** - For type safety and better development experience
+- **HTML & CSS** - For styling and structure
+- **GitHub Pages** - Hosting the static site
+
+## 📂 Project Structure
+```
+angular-blog/
+├── src/
+│   ├── app/
+│   │   ├── components/   # Reusable UI components
+│   │   ├── pages/        # Blog pages
+│   │   ├── services/     # Data fetching and logic
+│   │   ├── models/       # Interfaces for blog content
+|   ├── data/             # Blog Posts
+|   ├── pages/
+|   |   ├── content/      # Page where the post is rendered
+|   |   ├── home/         # Site home page 
+│   ├── assets/           # Images and media files
+│   ├── styles/           # Global styles
+│   ├── index.html        # Entry point
+├── angular.json          # Angular configuration
+├── package.json          # Dependencies
+└── README.md             # Project documentation
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🏗️ How to Run Locally
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Alekssandher/angular-blog.git
+   ```
+2. Navigate into the project directory:
+   ```sh
+   cd angular-blog
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   ng serve
+   ```
+5. Open the project in your browser:
+   ```
+   http://localhost:4200
+   ```
 
-## Code scaffolding
+## 📌 Contributing
+Feel free to fork this project and contribute! If you find any issues or have suggestions, open an issue or submit a pull request.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📜 License
+This project is open-source and available under the [GPL License](LICENSE).
 
-```bash
-ng generate component component-name
-```
+---
+**Author:** [Alekssandher](https://github.com/Alekssandher)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
