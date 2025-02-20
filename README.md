@@ -4,7 +4,7 @@
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://alekssandher.github.io/angular-blog/)
 
 ## 📖 About
-Angular Blog is a static gaming blog built with Angular. It features articles about video games, providing a clean and modern interface for browsing content.
+Angular Blog is a static gaming blog built with Angular. It features articles about video games with a clean interface.
 
 ## 🚀 Features
 - 📜 Static blog with dynamic content rendering
@@ -26,10 +26,10 @@ angular-blog/
 │   │   ├── pages/        # Blog pages
 │   │   ├── services/     # Data fetching and logic
 │   │   ├── models/       # Interfaces for blog content
+|   |   ├── content/      # Page where the post is rendered
+|   |   ├── home/         # Site home page
 |   ├── data/             # Blog Posts
 |   ├── pages/
-|   |   ├── content/      # Page where the post is rendered
-|   |   ├── home/         # Site home page 
 │   ├── assets/           # Images and media files
 │   ├── styles/           # Global styles
 │   ├── index.html        # Entry point
