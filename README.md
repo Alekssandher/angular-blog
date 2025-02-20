@@ -9,7 +9,6 @@ Angular Blog is a static gaming blog built with Angular. It features articles ab
 ## 🚀 Features
 - 📜 Static blog with dynamic content rendering
 - 🎮 Gaming-related articles with images and descriptions
-- 📱 Fully responsive design for different screen sizes
 - 🔗 Navigation between articles and categories
 
 ## 🛠️ Technologies Used
