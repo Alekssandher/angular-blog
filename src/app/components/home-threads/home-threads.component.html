@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Latest Posts</h1>
+    <div class="threads">
+        <div *ngFor="let post of posts">
+            <app-threads [post]="post"></app-threads>
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,32 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0px;
+    border: 2px solid black; 
+}
+
+.categories-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+}
+
+.categories-container > li {
+    margin-right: 10px;
+    border: 2px solid black; 
+    padding: 5px 10px;
+}
+
+.categories-container > li a {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+h1 {
+    color: black;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
