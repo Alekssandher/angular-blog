@@ -10,3 +10,12 @@
 a {
     text-decoration: none;
 }
+button {
+    font-weight: 600;
+}
+.article-content p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}

@@ -13,13 +13,21 @@ export class ThreadsComponent {
   imageUrl = ""
   threadTitle = ""
   threadDescription = ""
+  threadCategory = ""
+  author = ""
+  date = ""
+  threadId = ""
   constructor() {}
   ngOnInit(): void {
     
     const post: any = this.post
-    this.imageUrl = `https://res.cloudinary.com/dnf22gtjt/image/upload/f_auto,q_auto/v1/${post.category}/${post.media}`;
+    this.imageUrl = `./assets/banners/${post.media}`;
     this.threadTitle = post.title;
-    this.threadDescription = this.truncateText(post.content, 30);
+    this.threadDescription = this.truncateText(post.description, 120);
+    this.threadCategory = post.category
+    this.author = post.author
+    this.date = post.date
+    this.threadId = post.id
   }
   truncateText(text: string, limit: number): string {
     return text.length > limit ? text.substring(0, limit) + "..." : text;

@@ -1,11 +1,27 @@
-<div class="article-container">
+<div *ngIf="article" class="article-container">
     <div class="article-cover">
-        <img src="https://res.cloudinary.com/dnf22gtjt/image/upload/f_auto,q_auto/v1/games/679858412326465536.jpg" alt="">
+        <img src="./assets/banners/{{article.media}}" alt="Imagem do artigo">
     </div>
-    <div class="article-title">
-        <h1>La la la</h1>
+    
+    <div class="text-content">
+        
+        <div class="article-meta">
+            <a ><span class="article-category">{{ article.category }}</span></a>
+            <span class="article-date">{{ article.date }}</span>
+            <span>By: {{article.author}}</span>
+            <a href=""><span class="home">Back Home</span></a>
+            
+        </div>
+
+        <div class="article-title">
+            <h1>{{ article.title }}</h1>
+        </div>
+        
+        <div class="article-content" [innerHTML]="article.content"></div>
     </div>
-    <div class="article-content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, excepturi dignissimos officiis vero totam facilis sint debitis impedit hic corrupti, provident dolores, quia minus dicta et. Quaerat atque accusamus laudantium.</p>
-    </div>
+    
+</div>
+<app-footer></app-footer>
+<div *ngIf="!article">
+    <p>Artigo não encontrado.</p>
 </div>

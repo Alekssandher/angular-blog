@@ -1,9 +1,19 @@
 header > app-menu-bar 
 {
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 header {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    color: aqua;
+    height: 50px;
 }

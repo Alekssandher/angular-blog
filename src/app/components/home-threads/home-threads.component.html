@@ -1,9 +1,13 @@
 <div class="container">
-    <h1>Latest Posts</h1>
+    <a href="">
+        <h1>Home</h1>
+    </a>
     <div class="threads">
-        <div *ngFor="let post of posts">
+        <div *ngFor="let post of displayedPosts">
             <app-threads [post]="post"></app-threads>
         </div>
-        
+        <button *ngIf="displayedPosts.length < posts.length" (click)="loadMore()" class="load-more">
+            Load More
+        </button>
     </div>
 </div>

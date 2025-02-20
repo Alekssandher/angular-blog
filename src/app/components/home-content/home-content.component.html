@@ -1,10 +1,14 @@
 <div class="container">
     <h1>Categories</h1>
     <div class="categories-container">
-        <li><a href="">Politic</a></li>
-        <li><a href="">Anime</a></li>
-        <li><a href="">Games</a></li>
-        <li><a href="">Review</a></li>
-        <li><a href="">Arts</a></li>
+        <a [routerLink]="['', 'RPG']">
+            <li>RPG</li>
+        </a>
+        <a [routerLink]="['', 'FPS']">
+            <li>FPS</li>
+        </a>
+        <a [routerLink]="['', 'Horror']"><li>Horror</li></a>
+        <a [routerLink]="['', 'Stealth']"><li>Stealth</li></a>
+        <a [routerLink]="['', 'Metroidvania']"><li>Metroidvania</li></a>
     </div>
 </div>

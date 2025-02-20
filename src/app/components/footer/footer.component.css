@@ -1,0 +1,25 @@
+.footer-container {
+    width: 1200px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border: 2px solid black; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+span:hover {
+    color: #919191;
+    transition: 0.4s;
+}
+
+.highlight {
+    color: #ffffff; 
+    font-weight: bold;
+}
