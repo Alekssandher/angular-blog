@@ -4,10 +4,11 @@ import { NgFor, NgIf } from '@angular/common';
 import { PostService } from '../../../services/post.service';
 import { posts } from '../../data/posts';
 import { ActivatedRoute, Router } from '@angular/router';
+import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-home-threads',
-  imports: [ThreadsComponent, NgFor, NgIf],
+  imports: [ThreadsComponent, NgFor, NgIf, FooterComponent],
   templateUrl: './home-threads.component.html',
   styleUrl: './home-threads.component.css'
 })

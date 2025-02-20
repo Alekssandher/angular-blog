@@ -116,3 +116,11 @@
     background: #000000;
     color: white;
 }
+@media (max-width: 768px) {
+    .thread-content-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}

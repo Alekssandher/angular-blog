@@ -15,11 +15,23 @@
     
 }
 span:hover {
-    color: #919191;
+    color: #aaa;
     transition: 0.4s;
 }
 
 .highlight {
     color: #ffffff; 
     font-weight: bold;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        width: 100%;
+        margin: auto;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+        border: 2px solid black; 
+        margin: 10px 0px 0px 0px;
+    }
+    
 }
