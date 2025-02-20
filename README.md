@@ -26,10 +26,10 @@ angular-blog/
 │   │   ├── pages/        # Blog pages
 │   │   ├── services/     # Data fetching and logic
 │   │   ├── models/       # Interfaces for blog content
+|   ├── pages/
 |   |   ├── content/      # Page where the post is rendered
 |   |   ├── home/         # Site home page
 |   ├── data/             # Blog Posts
-|   ├── pages/
 │   ├── assets/           # Images and media files
 │   ├── styles/           # Global styles
 │   ├── index.html        # Entry point
