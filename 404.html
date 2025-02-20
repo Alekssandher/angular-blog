@@ -10,18 +10,13 @@
 <body>
   <app-root></app-root>
 <script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-KPDOWV44.js" type="module"></script></body>
-  <script>
-  (function() {
-    var repoName = "/angular-blog";
-    var path = window.location.pathname;
-
-   
-    if (path.startsWith(repoName + repoName)) {
-      path = path.replace(repoName + repoName, repoName);
-    }
-
-    window.location.replace(repoName + "/#" + path.substring(repoName.length));
-  })();
+<script>
+  var path = window.location.pathname;
+  var repoName = "/seu-repo";
+  if (!path.startsWith(repoName)) {
+    path = repoName + path;
+  }
+  window.location.replace(path);
 </script>
 
 </html>
