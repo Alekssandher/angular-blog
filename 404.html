@@ -10,4 +10,12 @@
 <body>
   <app-root></app-root>
 <script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-TDSRKNCH.js" type="module"></script></body>
+<script>
+  var path = window.location.pathname;
+  var repoName = "/seu-repo";
+  if (!path.startsWith(repoName)) {
+    path = repoName + path;
+  }
+  window.location.replace(path);
+</script>
 </html>
